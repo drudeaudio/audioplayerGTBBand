@@ -58,10 +58,6 @@ body {
     max-width: 1500px;
 }
 
-.wrapper {
-    height: 50%
-}
-
 .control-bar {
     display: flex;
     gap: 10px;
