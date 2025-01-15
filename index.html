@@ -11,10 +11,10 @@
 <body>
     <div class="container">
         <div class="music-player">
-            <img src="./assests/Arirang.jpg" alt="music-icon" id="music-icon">
+            <img src="./assests/GTBB.jpg" alt="music-icon" id="music-icon">
             <div class="info">
-                <h1>아리랑 연곡 (Arirang) - Korean Trad. Medley</h1>
-                <h3>Lamar University A Cappella Choir</h3>
+                <h1>Have Yourself a Merry Little Christmas - arr. Dave Wolpe</h1>
+                <h3>The Golden Triangle Big Band</h3>
                 <div id="waveform"></div>
                 <div class="control-bar">
                     <img src="./assests/play.png" alt="play" id="playBtn" title="Play / Pause">
@@ -36,9 +36,10 @@
             barWidth: 3,
             responsive: true,
             hideScrollbar: true,
-            barRadius: 3
+            barRadius: 3,
+            height: 50
         });
-        wavesurfer.load('assests/Arirang.mp3');
+        wavesurfer.load('assests/GTBB.mp3');
 
         playBtn.onclick = function(){
             wavesurfer.playPause();
